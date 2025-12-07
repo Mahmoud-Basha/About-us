@@ -1,0 +1,167 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(./WhatsApp\ Image\ 2025-11-30\ at\ 22.16.20_7c82d033.jpg);
+    background-size: cover;
+}
+header{
+position: relative;        /* مهم جداً */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;   /* أو rgba(0, 0, 0, 0.3) لو عايز لون خفيف */
+    backdrop-filter: blur(2px); /* اختياري: يخليها شبه زجاجية حلوة */
+    z-index: 1;                 /* أقل من z-index بتاع الـ content لو موجود */
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+    
+   
+ }
+ .logo{
+   color: #f6e9e9;
+   font-weight: 800;
+   cursor: pointer;
+   transition: 0.5s ease ;
+   padding-left: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .logo:hover{
+    transform: scale(1.1);
+ }
+ nav a{
+    color: #f6e9e9;
+    text-decoration: none;
+    margin-left: 15px;
+    padding-right: 80px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3 ease;
+ }
+ nav a:hover,
+ nav a:active{
+    color: #007e6e;
+    
+ }
+h1{
+    text-align: center;
+    color: #0018f9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vh;
+}
+p{
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(5,auto);
+    background-color: transparent;
+    width: 100vw;
+   
+}
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 500;
+    
+}
+
+
+.parent div{
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #000080;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+   
+}
+.parent div:hover{
+transform: translateY(-8px);
+
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+.profile div{
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.profile div:hover{
+    transform: translateY(-8px);
+}
+.name{
+    margin-top: 170px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+button{
+    background-color: #6030e4;
+    padding: 20px;
+    margin-bottom:100px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    
+}
+button:hover{
+background-color: #0018f9;
+transform: scale(1.1);
+border: none;
+cursor: pointer;
+}
+.karema{
+    background: url(WhatsApp\ Image\ 2025-11-30\ at\ 22.05.14_46182929.jpg);
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.mohamed{
+    background: url(WhatsApp\ Image\ 225-12-01\ at\ 02.26.48_104b3141.jpg) no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.kenzy{
+    background: url(WhatsApp\ Image\ 2025-11-30\ at\ 22.39.02_f0c4df96.jpg) no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.mahmoud{
+    background: url(WhatsApp\ Image2025-12-01\ at\ 02.26.47_3cd5ac36.jpg) no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
